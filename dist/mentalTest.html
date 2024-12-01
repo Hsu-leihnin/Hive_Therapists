@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Test</title>
+    <link rel="stylesheet" type="text/css" href="mentalTest.css">
+</head>
+<body> 
+      <header>
+              <div class="hero">
+          <nav>
+            <h2 class="logo">HIVE <span>THERAPHISTS</span></h2>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="hospitals.html">Hospitals</a></li>
+              <li><a href="specialists.html">Specialists</a></li>
+              <li><a href="mentalTest.html">Mental Test</a></li>
+              
+              </ul>
+              <button class="contactBtn" type="button"><a href="index.html#contact"> Contact</a></button>
+          </nav>
+        </div>
+    </header>
+
+<div class="container">
+    <h1>Mental Test</h1>
+    <form id="mentalTestForm">
+        <div class="question">
+            <p>1. Do you often feel overwhelmed by your daily tasks?</p>
+            <input type="radio" name="q1" value="bad"> Yes<br>
+            <input type="radio" name="q1" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>2. Finding no joy in life, or feeling like you never will again.</p>
+            <input type="radio" name="q2" value="bad"> Yes<br>
+            <input type="radio" name="q2" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>3. I often feel sad.</p>
+            <input type="radio" name="q3" value="bad"> Yes<br>
+            <input type="radio" name="q3" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>4.  I get upset or angry easily.</p>
+            <input type="radio" name="q4" value="bad"> Yes<br>
+            <input type="radio" name="q4" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>5. Feeling down, depressed, or hopeless.</p>
+            <input type="radio" name="q5" value="bad"> Yes<br>
+            <input type="radio" name="q5" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>6. Feeling tired or having little energy.</p>
+            <input type="radio" name="q6" value="bad"> Yes<br>
+            <input type="radio" name="q6" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>7. Feeling bad about yourself - or that you are a failure or have let yourself or your family down.</p>
+            <input type="radio" name="q7" value="bad"> Yes<br>
+            <input type="radio" name="q7" value="good"> No 
+        </div>
+      
+        <div class="question">
+            <p>8.  Trouble concentrating on things, such as reading the newspaper or watching television.</p>
+            <input type="radio" name="q8" value="bad"> Yes<br>
+            <input type="radio" name="q8" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>9. Eating too much or too little.</p>
+            <input type="radio" name="q9" value="bad"> Yes<br>
+            <input type="radio" name="q9" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>10.  Oversleeping or struggling to get to sleep.</p>
+            <input type="radio" name="q10" value="bad"> Yes<br>
+            <input type="radio" name="q10" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>11. I am able to handle the level of stress I experience.</p>
+            <input type="radio" name="q11" value="bad"> Yes<br>
+            <input type="radio" name="q11" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>12. Felt moments of sudden terror, fear, or fright in social situations.</p>
+            <input type="radio" name="q12" value="bad"> Yes<br>
+            <input type="radio" name="q12" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>13. Had thoughts of being rejected, humiliated, embarrassed, ridiculed, or offending others.</p>
+            <input type="radio" name="q13" value="bad"> Yes<br>
+            <input type="radio" name="q13" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>14. Felt a racing heart, sweaty, trouble breathing, faint, or shaky.</p>
+            <input type="radio" name="q14" value="bad"> Yes<br>
+            <input type="radio" name="q14" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>15. You’ve experienced a surge of intense fear or intense discomfort that peaks within minutes.</p>
+            <input type="radio" name="q15" value="bad"> Yes<br>
+            <input type="radio" name="q15" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>16. Thoughts raced through your head or you couldn’t slow your mind down? </p>
+            <input type="radio" name="q16" value="bad"> Yes<br>
+            <input type="radio" name="q16" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>17.   I have strong relationships with people I care about.</p>
+            <input type="radio" name="q17" value="bad"> Yes<br>
+            <input type="radio" name="q17" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>18. I cannot get beyond long-past traumatic events or significant losses.</p>
+            <input type="radio" name="q18" value="bad"> Yes<br>
+            <input type="radio" name="q18" value="good"> No
+        </div>
+
+        <div class="question"> 
+            <p>19. Thoughts that you would be better off dead, or of hurting yourself.</p>
+            <input type="radio" name="q19" value="bad"> Yes<br>
+            <input type="radio" name="q19" value="good"> No
+        </div>
+
+        <div class="question">
+            <p>20.  When I experience a strong emotion, I usually know why it's hitting me. </p>
+            <input type="radio" name="q20" value="bad"> Yes<br>
+            <input type="radio" name="q20" value="good"> No
+        </div>
+
+        <!-- Add more questions similarly -->
+
+        <button type="button" id="submitBtn">Submit</button>
+        
+    </form>
+    <div id="result"></div>
+    <button id="resetBtn"><a style="text-decoration: none;" href="mentalTest.html">Reset The Test</a></button>
+</br>
+ <span class="men" type="button" align="center"><a style="color:white;text-decoration: none;" href="linlin.html">Mental Clinic</a></span>
+</div>
+
+<script src="mentalTest.js"></script>
+
+</body>
+</html>
